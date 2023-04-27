@@ -24,7 +24,7 @@ public class JayaGrid extends Drawer
     {
         super(graph, draw.initialDrawer);
         phaseNumber = phase; 
-        name = "Jaya+Grid"; 
+        name = "Jaya+LHS"; 
         jayaParameterWindow = new LeftJayaParametersStage(animatedEnabled);
         jayaParameterWindow.callJaya.setOnAction(e -> getParameters(draw, graph));
     }

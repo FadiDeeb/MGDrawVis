@@ -32,7 +32,7 @@ public class LeftBar extends VBox
         jaya1 = new Button("Jaya I");
         jaya1.setPrefWidth(prefWidth);
         jaya1.setPrefHeight(prefHeight);
-        ga = new Button("Jaya+Grid");
+        ga = new Button("Jaya+LHS");
         ga.setPrefWidth(prefWidth);
         ga.setPrefHeight(prefHeight);
         hc = new Button("Hill Climbing");

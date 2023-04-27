@@ -138,7 +138,7 @@ public class TopRunBatchStage extends Stage
         firstRow.setPadding(new Insets(10,10,10,10));
         row1Label1 = new Label("Choose a method");
         row1Label1.setPrefWidth(140);
-        String[] methods = {"Jaya I", "Jaya+Grid", "Hill Climbing", "Simulated Annealing"};
+        String[] methods = {"Jaya I", "Jaya+LHS", "Hill Climbing", "Simulated Annealing"};
         methodsList = FXCollections.observableArrayList(methods);
         chooseMethod = new ComboBox(methodsList);
         chooseMethod.setPromptText("Choose a method");
@@ -272,7 +272,7 @@ public class TopRunBatchStage extends Stage
                n = 4;
            if (chooseMethod.getValue().toString().equals("Jaya I"))
                panel.drawer = new Jaya(panel, panel.graph, n, false);
-           else if (chooseMethod.getValue().toString().equals("Jaya+Grid"))
+           else if (chooseMethod.getValue().toString().equals("Jaya+LHS"))
                panel.drawer = new JayaGrid(panel, panel.graph, n, false);
            else if (chooseMethod.getValue().toString().equals("Hill Climbing"))
                panel.drawer = new HC(panel, panel.graph, n, false);
