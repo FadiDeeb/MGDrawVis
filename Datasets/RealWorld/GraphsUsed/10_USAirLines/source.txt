@@ -1,0 +1,2 @@
+Vladimir Batagelj and Andrej Mrvar (2006): Pajek datasets.
+ <URL: http://vlado.fmf.uni-lj.si/pub/networks/data/>. 

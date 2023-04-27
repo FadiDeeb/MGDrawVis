@@ -1,0 +1,3 @@
+2017 Streaming Partition Challenge Datasets with Known Truth Partitions (click to expand)
+
+https://graphchallenge.mit.edu/data-sets
